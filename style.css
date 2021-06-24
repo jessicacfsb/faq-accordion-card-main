@@ -10,20 +10,26 @@ body{
 
 .container-all{
 	background-color: hsl(0, 0%, 100%);
-	display: inline-flex;
+	display: flex;
+	margin: 130px;
+	margin-left: 20%;
 	border-radius: 30px;
-	margin: 100px;
-	margin-left: 280px;
-	max-height: 500px;
+	max-height: 490px;
+	max-width: 1000px;
 	overflow: hidden;
+}
+
+#sombras{
+	position: relative;
+	transform: translate(-590px, -300px);
 }
 
 #desktop{
 	display: block;
 	padding: 50px;
 	height: 400px;
-	width: 500px;
-	transform: translate(-130px, 17px);
+	width: auto;
+	transform: translate(-1090px, 12px);
 }
 
 #caixa{
@@ -31,20 +37,14 @@ body{
 	transform: translate(-93px, 205px);
 }
 
-#sombras{
-	position: relative;
-	transform: translate(-1200px, -290px);
-}
-
 .container-txt{
-	height: 400px;
-	width: 400px;
-	padding: 50px;
-
 	display: block;
+	
+
+
 	
 }
 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 13px; text-align: center; margin-top: -100px;}
+.attribution a { color: hsl(228, 45%, 100%);}
