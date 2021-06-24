@@ -15,13 +15,7 @@ The designs were created to the following widths:
 
 - Very dark desaturated blue: hsl(238, 29%, 16%)
 - Soft red: hsl(14, 88%, 65%)
--------------------------------------------------------------------
-4:hover{
-	background: hsl(0, 0%, 100%);
-	color: hsl(14, 88%, 65%);
-	box-shadow: inset 0 0 0 3px, hsl(14, 88%, 65%);
-}
-------------------------------------------------------------------------
+
 #### Gradient
 
 Background gradient:
