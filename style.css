@@ -39,8 +39,9 @@ body{
 	display: inline-block;
 	min-width: 400px;
 	padding: 50px;
+	padding-top: 30px; 
 	margin: 0px;
-	transform: translate(-1000px);	
+	transform: translate(-1050px);	
 }
 
 .menu{
